@@ -99,26 +99,99 @@
   }  
   /* Bottom wrap style */
   .bottom-wrap {
-    background-image: linear-gradient(to bottom right, #7f00ff, #e100ff);
+    background-image: linear-gradient(to bottom right, #423f3f7a, #555);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px;
   }
+  /* animasi button */
+  .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.btn:active {
+  background-color: #0056b3;
+  transform: translateY(2px);
+}
   /* about us styles */
   .about-wrapper{
     color:white;
     flex-basis: calc(50% - 10px);
     font-weight: 100;
   }
+  .about-lapor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width:fit-content;
+  }
   .about h2{
     text-decoration: underline;
+    text-align: center;
   }
+  .tanya{
+    box-shadow: 0 0 4px #ccc ;
+    margin-top: 60px;
+    margin-left: 70px ;
+    text-align: center;
+    width: 250px;
+  }
+  .tanya h3{
+    font-weight: bold;
+    font-size:15px;
+    text-align: center;
+    color:#0c0c0c;
+  }
+  .tanya h4{
+    color:#0c0c0c;
+  }
+  .tanya a{
+    color:#0c0c0c;
+  }
+  .tanya p{
+    color:#0c0c0c;
+  }
+  .tanya:hover{
+    background-color: #fff;
+    opacity: 0.2;
+  }
+  .lapor{
+    box-shadow: 0 0 4px #ccc ;
+    margin-top: 60px;
+    margin-left :20px;
+    font-size:15px;
+    text-align: center;
+  }
+  .lapor h3{
+    font-weight: normal;
+    color:#0c0c0c;
+  }
+  .lapor a{
+    color:#0c0c0c;
+  }
+  .lapor p{
+    color:#0c0c0c;
+  }
+  .lapor:hover{
+    background-color: #fff;
+    opacity: 0.2;
+  }
+
   /* Contact form styles */
   .contact-wrap{
     flex-basis: calc(50% - 10px);
