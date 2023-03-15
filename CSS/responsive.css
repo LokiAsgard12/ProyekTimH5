@@ -44,6 +44,12 @@
     .newsarticle h2{
         font-size: 1.5rem;
     }
+    .lapor {
+        margin: 35px 35px;
+    }
+    .tanya{
+        margin : 35px 25px;
+    }
     footer .footer-container {
         flex-direction: column;
         align-items: center;
