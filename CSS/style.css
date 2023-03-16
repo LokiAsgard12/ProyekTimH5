@@ -67,6 +67,15 @@
     justify-content: space-between;
     padding: 70px 0 20px 0;
   }
+  .header h1{
+    margin-bottom: 0.5rem;
+    text-decoration: underline red 8px;
+    text-underline-offset: 8px;
+  }
+  .header hr{
+    margin-left: 0px;
+    width: 95%;
+  }
   .newsarticle {
     background-color: #f9f9f9;
     border-radius: 4px;
@@ -92,10 +101,6 @@
   .newsarticle p{
     color: #E96479;
     margin:1rem;
-  }
-  .header hr{
-    margin-left: 0px;
-    width: 95%;
   }  
   /* Bottom wrap style */
   .bottom-wrap {
